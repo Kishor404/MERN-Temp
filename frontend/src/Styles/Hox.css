@@ -1,0 +1,89 @@
+:root{
+    --p:white;
+    --s:rgb(0, 162, 255);
+    --t:rgb(5, 225, 148);
+}
+
+/* 
+    CONTENT
+    
+    1. Button
+
+*/
+
+
+/* 1. BUTTON */
+
+.Hox-Button1{
+    color: var(--p);
+    background-color: var(--s);
+    border: 2px solid var(--s);
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 12pt;
+    cursor: pointer;
+    transition: all 0.6s ease;
+}
+.Hox-Button1:hover{
+    color: var(--s);
+    background-color: var(--p);
+}
+
+.Hox-Button2{
+    color: var(--s);
+    background-color: var(--p);
+    border: 2px solid var(--s);
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 12pt;
+    cursor: pointer;
+    transition: all 0.6s ease;
+}
+.Hox-Button2:hover{
+    color: var(--p);
+    background-color: var(--s);
+}
+
+.Hox-Button3{
+    color: var(--s);
+    background-color: var(--p);
+    border: 2px solid var(--s);
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 12pt;
+    cursor: pointer;
+    transition: all 0.6s ease;
+}
+.Hox-Button3:hover{
+    border:2px solid var(--t);
+    color: var(--t);
+}
+
+.Hox-Button4{
+    color: var(--p);
+    background-color: var(--s);
+    border: 2px solid var(--s);
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 12pt;
+    cursor: pointer;
+    transition: all 0.6s ease;
+}
+.Hox-Button4:hover{
+    border:2px solid var(--t);
+    background-color: var(--t);
+}
+
+.Hox-Button5{
+    color: var(--p);
+    background-color: var(--s);
+    border: 2px solid var(--s);
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 12pt;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.Hox-Button5:hover{
+    padding: 13px 23px;
+}
