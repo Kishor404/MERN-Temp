@@ -1,7 +1,11 @@
 import './Styles/Components.css';
+import { Link } from 'react-router-dom';
+
+import sample_img1 from "./assets/sample_img1.jpg"
 
 // HOX
 import './Styles/Hox.css'
+
 
 const HoxComponents=()=>{
     return(
@@ -28,6 +32,13 @@ const HoxComponents=()=>{
                 <div className='Compo-Button-div'>
                     <p>Hox Button 5</p>
                     <button className="Hox-Button5">Click Me !</button>
+                </div>
+            </section>
+            <section className='Compo-Hox-Card'>
+                <div className='Hox-Card1'>
+                    <img src={sample_img1} alt='Sample Img'/>
+                    <p>i am a developer who wrok on web development now !</p>
+                    <Link to={"/"} className='Hox-Card1-Link'> </Link>
                 </div>
             </section>
         </>

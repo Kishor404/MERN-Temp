@@ -3,14 +3,19 @@ import { useEffect, useState } from "react"
 function P1(){
     
     const [data,setdata]=useState()
-
+    
     useEffect(()=>{
         const fetchData1=async ()=>{
-            const response=await fetch("/api1")
-            const json=await response.json()
-            if(response.ok){
-                setdata(json)
+            try{
+                const response=await fetch("/api1")
+                const json=await response.json()
+                if(response.ok){
+                    setdata(json)
+                }
+            }catch(err){
+                console.log(err)
             }
+            
         }
         fetchData1();
     },[])

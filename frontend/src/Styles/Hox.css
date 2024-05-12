@@ -2,6 +2,7 @@
     --p:white;
     --s:rgb(0, 162, 255);
     --t:rgb(5, 225, 148);
+    --b:rgb(227, 230, 230);
 }
 
 /* 
@@ -86,4 +87,38 @@
 }
 .Hox-Button5:hover{
     padding: 13px 23px;
+}
+
+
+/* 2. CARD */
+
+.Hox-Card1{
+    background-color: var(--s);
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    width:fit-content;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    position: relative;
+}
+.Hox-Card1 img{
+    width:200px;
+    height: 200px;
+    border-radius: 10px;
+}
+.Hox-Card1 p{
+    width:200px;
+    text-align: justify;
+    padding-top: 10px;
+}
+.Hox-Card1-Link{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border-radius: 12px;
+}
+.Hox-Card1-Link:hover{
+    background-color: rgba(0, 0, 0, 0.107);
 }
