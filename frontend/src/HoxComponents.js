@@ -37,10 +37,22 @@ const HoxComponents=()=>{
             <section className='Compo-Hox-Card'>
                 <div className='Hox-Card1'>
                     <img src={sample_img1} alt='Sample Img'/>
-                    <p>i am a developer who wrok on web development now !</p>
+                    <p>Hox-Card1</p>
                     <Link to={"/"} className='Hox-Card1-Link'> </Link>
                 </div>
+                <Link className='Hox-Card2'>
+                    <p>Hox-Card2</p>
+                </Link>
+                <div className='Hox-Card3'>
+                    <Link className='Hox-Card3-in'>
+                        <p>Hox-Card3</p>
+                    </Link>
+                </div>
+                <Link className='Hox-Card4'>
+                    <p>Hox-Card4</p>
+                </Link>
             </section>
+            
         </>
     )
 }

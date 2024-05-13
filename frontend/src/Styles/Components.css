@@ -17,6 +17,8 @@ h3{
 }
 .Compo-Hox-Card{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    padding: 100px;
+    background-color: #e8e8e8;
 }
