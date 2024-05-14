@@ -10,7 +10,11 @@ import './Styles/Hox.css'
 const HoxComponents=()=>{
     return(
         <>
+
             <h3>HOX</h3>
+
+            {/* HOX BUTTON */}
+
             <section className='Compo-Hox-But'>
                 <h5>BUTTONS</h5>
                 <div className='Compo-Button-div'>
@@ -34,6 +38,9 @@ const HoxComponents=()=>{
                     <button className="Hox-Button5">Click Me !</button>
                 </div>
             </section>
+
+            {/* HOX CARD */}
+
             <section className='Compo-Hox-Card'>
                 <div className='Hox-Card1'>
                     <img src={sample_img1} alt='Sample Img'/>
@@ -52,7 +59,40 @@ const HoxComponents=()=>{
                     <p>Hox-Card4</p>
                 </Link>
             </section>
-            
+
+            {/* HOX NAV */}
+
+            <section className='Compo-Hox-Nav'>
+                <div className='Hox-Nav1'>
+                    <div className='Hox-Nav1-L'>
+                        <p><b>Hox-Nav1</b></p>
+                        {/* <img src={sample_img1}/> */}
+                    </div>
+                    <div className='Hox-Nav1-R'>
+                        <Link>Home</Link>
+                        <Link>About</Link>
+                        <Link>Services</Link>
+                        <Link>Contact</Link>
+                    </div>
+                </div>
+
+
+                <div className='Hox-Nav2'>
+                    <div className='Hox-Nav2-L'>
+                        <p><b>Hox-Nav2</b></p>
+                        {/* <img src={sample_img1}/> */}
+                    </div>
+                    <div className='Hox-Nav2-C'>
+                        <Link>Home</Link>
+                        <Link>About</Link>
+                        <Link>Services</Link>
+                        <Link>Contact</Link>
+                    </div>
+                    <div>
+                        <button className='Hox-Button1'>Click Me</button>
+                    </div>
+                </div>
+            </section>
         </>
     )
 }
