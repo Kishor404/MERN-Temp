@@ -2,7 +2,7 @@
 const Navbar=()=>{
     return(
         <>
-            <p>Hello</p>
+            <p>Welcome !</p>
         </>
     )
 }
